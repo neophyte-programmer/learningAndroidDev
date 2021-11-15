@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Methods are fancy names for functions in Java
         Methods should be created outside the scope of the onCreate method
         But it should still be in the MainActivity class
+        The method "onBtnClick" needs to also be included in the xml file
     */
 
     public void onBtnClick (View view) {
