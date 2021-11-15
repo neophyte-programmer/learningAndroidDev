@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText 
+
 
     }
 
@@ -30,7 +30,11 @@ public class MainActivity extends AppCompatActivity {
         // id
         TextView textHello = findViewById(R.id.textMessage);
 
-        /* Setting the text to something else */
-        textHello.setText("Hello People");
+        // Assigning the edit text to a variable
+        EditText editTextName = findViewById(R.id.editTextName);
+
+        //Get the input from user and converting to string so that it can be used
+        /* Setting the text to the string */
+        textHello.setText("Hello " + editTextName.getText().toString());
     }
 }
