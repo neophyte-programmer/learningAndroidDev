@@ -29,7 +29,7 @@ public class Hello {
         int sum = a + b;
         int difference = a - b;
         int product = a * b;
-        float quotient = (float) a / b;
+        float quotient = (float) a / b; // same can for done for double because both numbers are int
         int remainder = a % b;
 
         System.out.println(sum);
@@ -37,6 +37,14 @@ public class Hello {
         System.out.println(product);
         System.out.println(quotient);
         System.out.println(remainder);
+
+        String firstname = "Nutifafa";
+        String lastname = "Attor";
+
+        String fullname = firstname + " " + lastname;
+
+        System.out.println(fullname);
+
 
     }
 
