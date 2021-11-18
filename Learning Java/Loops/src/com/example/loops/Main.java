@@ -1,5 +1,6 @@
 package com.example.loops;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +37,10 @@ public class Main {
 //
 //        System.out.println("Hello " + name);
 
+        Random random = new Random();
+        int number = random.nextInt(20) + 1;
 
+        System.out.println("number: " + number);
 
     }
 }
