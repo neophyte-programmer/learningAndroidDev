@@ -13,10 +13,14 @@ public class main {
 
         System.out.println("Hello " + name + "!");
 
+        System.out.println("Do you want to start the game?");
+        System.out.println("\t1. Yes");
+        System.out.println("\t2. No");
+
         int play = scanner.nextInt();
 
         while (play != 1) {
-            System.out.println("Do you want to continue the game?");
+            System.out.println("Do you want to start the game?");
             System.out.println("\t1. Yes");
             System.out.println("\t2. No");
 
